@@ -1,0 +1,22 @@
+.containers{
+    display:flex;
+}
+.container1
+{
+    width: 250px;
+    height: 150px;
+    background-color: red;
+    margin: 10px;
+    border-radius: 10px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 26px;
+    margin: auto;
+    margin-top: 10px;
+    gap: 38px;
+    font-weight: 400;
+    background: var(--primary-color, lightgray);
+    border-radius: 10px;}

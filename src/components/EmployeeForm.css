@@ -1,0 +1,143 @@
+
+  .Member__container{
+   
+    background: #FFF;
+    box-shadow: 3px 3px 10px 0px black;
+    /* border:3px solid blue; */
+    margin: 10px;
+    width: 626px;
+    height: 96px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .card {
+    /* border: 3px red solid; */
+    margin: 30px;
+    display: inline-block;
+    max-height: 400px;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    border-radius: 20px;
+ 
+  }
+  ::-webkit-scrollbar{
+    width: 10px;
+  }
+  .leftside{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     /* background-color: aqua; */
+     width: 90%;
+     height: 100%;
+  }
+  .img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid blue;
+    z-index: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3px;
+   
+  flex-shrink: 0;
+  }
+  .text__container{
+     
+     /* background-color: blue; */
+     width: 80%;
+     
+     
+  }
+  .text__container p{
+    display: block;
+     margin: -10px;
+     margin-left: 10px;
+  
+  }
+  .leftside .span{
+      justify-content: center;
+      align-items: center;
+  }
+  .rightside{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: gray; */
+    width: 130px;
+     height: 100%;
+    
+   
+  }
+  
+  .rightside span{
+    padding: 10px;
+  }
+    
+    
+    .d-flex span{
+      width: 200px;
+      height: 50px;
+   /* background-color: aqua; */
+    display: inline-flex;
+    margin-left: 150px;
+    right: 0px;
+    overflow: hidden;
+    }
+   
+    .form-group input{
+      width: 626px;
+      height: 61px;
+      background: #FFF;
+      margin: 10px;
+      border: 0px;
+      font-family: Inter;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+     line-height: normal;;
+    }
+    .form-group .form-control{
+        margin-left: 10px;
+    
+    }
+    .btn1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 26px;
+        margin: auto;
+        margin-top: 10px;
+        gap: 38px;
+        font-weight: 400;
+        background: var(--primary-color, lightgray);
+        border-radius: 10px;
+    }
+    .btn2{
+    
+      display: flex;
+      justify-content: center;
+      align-items: center;
+       padding: 10px 26px;
+      
+       gap: 18px;
+       background: var(--primary-color, #164B60);
+       margin: 20px;
+    }
+    .img1 {
+      width: 161px;
+      height: 161px;
+      border-radius: 50%;
+      border: 2px solid blue;
+      z-index: auto;
+      
+   
+      margin: 13px;
+     
+  
+    }
+  .text-center{
+    text-align: center;
+  }
