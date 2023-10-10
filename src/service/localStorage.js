@@ -1,3 +1,5 @@
+import Questionnaire from "../pages/Questionnaire";
+
 export const getListEmployees = () => {
     if (!localStorage["employees"]) {
       localStorage["employees"] = "[]";
@@ -34,4 +36,20 @@ export const getListEmployees = () => {
     employees.push(newEmployee);
     console.log("details",newEmployee)
     localStorage["employees"] = JSON.stringify(employees);
+  };
+
+  export const getQuestionnaire = () => {
+    if (!localStorage["questionnaire"]) {
+      localStorage["questionnaire"] = "[]";
+    }
+  
+    let questionnaires = localStorage["questionnaire"];
+    questionnaires= JSON.parse(questionnaires);
+    return questionnaires;
+  };
+
+  export const addquestionnaire = (questionnairre ) => {
+    const questionnaire  =  getQuestionnaire();
+    questionnaire .push(questionnairre);
+    localStorage["questionnaire"] = JSON.stringify(questionnaire );
   };

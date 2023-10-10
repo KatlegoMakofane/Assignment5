@@ -9,7 +9,7 @@ const Questionnaire = () => {
     <div>
       <h1 className="text-center">Questionnaire</h1>
       <QuizList/>
-      <button className='btn' onClick={() => navigate("/")} >Submit</button>
+      <button className='btn'  onClick={() => navigate("/")} >Submit</button>
       </div>
   )
 }

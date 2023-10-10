@@ -1,13 +1,22 @@
 .containers{
-    display:flex;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    align-items: center;
+    gap: 1rem;
+
 }
 .container1
 {
-    width: 250px;
-    height: 150px;
+    width: 350px;
+    height: 130px;
     background-color: red;
     margin: 10px;
     border-radius: 10px;
+}
+.container1 p{
+    text-align: center;
+    margin: auto;
+    font-size: 32px;
 }
 .btn{
     display: flex;
@@ -20,3 +29,4 @@
     font-weight: 400;
     background: var(--primary-color, lightgray);
     border-radius: 10px;}
+    .text-center{text-align: center;}
